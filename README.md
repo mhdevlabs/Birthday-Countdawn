@@ -12,7 +12,7 @@ This project is a **simple and clean Birthday Countdown website** that shows the
 
 ## 📸 Preview
 
-A minimal countdown interface that updates every second, showing how much time is left until the user's birthday.
+[A minimal countdown interface that updates every second, showing how much time is left until the user's birthday.](https://mhdevlabs.github.io/Birthday-Countdawn/)
 
 ## 🛠️ Technologies Used
 
