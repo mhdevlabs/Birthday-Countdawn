@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000008;
+    font-family: 'Lato', sans-serif;
+}
+section.coming-soon div h2{
+    font-size: 45px;
+    color: #04C1A4;
+    text-shadow: 0 0 10px rgba(4, 193, 164, 0.7),
+    0 0 20px rgba(4, 193, 164, 0.45),
+    0 0 35px rgba(4, 193, 164, 0.25);
+    padding: 20px;
+    font-weight: bold;
+}
+.coming-soon {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    color: #04C1A4;
+    text-shadow: 0 0 10px rgba(4, 193, 164, 0.7),
+    0 0 20px rgba(4, 193, 164, 0.45),
+    0 0 35px rgba(4, 193, 164, 0.25);
+    align-items: center;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,
+.hour,
+.min,
+.sec{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.waiting{
+    height: 50vh;
+    margin-top: 30px;
+}
+.p-tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 10px rgba(4, 193, 164, 0.7),
+    0 0 20px rgba(4, 193, 164, 0.45),
+    0 0 35px rgba(4, 193, 164, 0.25);
+    padding: 20px;
+    font-weight: bold;
+}
+.p-tag a{
+    text-decoration: none;
+    font-family: inherit;
+    color: #A855F7;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.p-tag a:hover{
+    color: #04C1A4;
+    text-shadow: 0 0 10px rgba(4, 193, 164, 0.7),
+    0 0 20px rgba(4, 193, 164, 0.45),
+    0 0 35px rgba(4, 193, 164, 0.25);
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 400px){
+    .coming-soon h2{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .countdown h3{
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 768px){
+    .coming-soon h2{
+        font-size: 50px !important;
+        text-align: center;
+    }
+    .coming-soon img{
+        height: 42vh;
+    }
+}
+@media(min-width: 768px) and (max-width: 992px){
+    .coming-soon h2{
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .p-tag{
+        font-size: 30px;
+    }
+}
+@media (min-width: 992px){
+    .p-tag{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .day,.hour,.min,.sec{
+        font-size: 35px;
+    }
+}
