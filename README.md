@@ -2,6 +2,10 @@
 
 This project is a **simple and clean Birthday Countdown website** that shows the remaining time until your birthday. It is built using **HTML, CSS, and JavaScript only**, and features a **responsive layout** that works across all devices.
 
+## 📸 Preview
+
+[A minimal countdown interface that updates every second, showing how much time is left until the user's birthday.](https://mhdevlabs.github.io/Birthday-Countdawn/)
+
 ## 🚀 Features
 
 - ⏳ **Live countdown timer** (days, hours, minutes, seconds)  
@@ -10,9 +14,6 @@ This project is a **simple and clean Birthday Countdown website** that shows the
 - ⚡ Built with **pure HTML, CSS, and JavaScript**  
 - 🔧 Easy to customize for any birthday date  
 
-## 📸 Preview
-
-[A minimal countdown interface that updates every second, showing how much time is left until the user's birthday.](https://mhdevlabs.github.io/Birthday-Countdawn/)
 
 ## 🛠️ Technologies Used
 
